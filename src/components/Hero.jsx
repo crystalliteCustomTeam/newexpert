@@ -12,14 +12,14 @@ import { CTA } from '.'
 export default function Hero() {
   return (
     <section>
-      <div className='xs:h-[70vh] h-[100vh]  xl:h-[700px]  flex items-center relative '>
+      <div className='xs:h-[70vh] md:h-[80vh]  2xl:h-[700px]  flex items-center relative '>
         <Image src={HomeBanner} alt={process.env.NEXT_PUBLIC_WEBSITE_ALT_TAGS} fill={true} className='-z-10 object-cover object-right ' priority={true} unoptimized={true} />
         <div className='absolute top-0 bottom-0 left-0 right-0 bg-black xs:opacity-80 opacity-70 xl:opacity-60 ' ></div>
         <div className="container z-10 ">
           <div className='grid grid-cols-12  items-center'>
             <div className='h-full  col-span-12 md:col-span-12 lg:col-span-7 xl:col-span-6 md:mx-[10%]'>
               <div className='mb-8 '>
-                <h1 className='font-semibold md:text-center lg:text-left xs:text-[34px] sm:text-[40px] md:text-[40px] lg:text-[45px] xl:text-[50px] 2xl:text-[55px] text-white capitalize leading-tight font-mono'>Your <span className='text-[#f90] font-bold'>ONE-STOP </span> Book Editing And Publishing Service Provider!</h1>
+                <h1 className='font-semibold md:text-center lg:text-left xs:text-[34px] sm:text-[40px] md:text-[40px] lg:text-[45px] xl:text-[45px] 2xl:text-[55px] text-white capitalize leading-tight font-mono'>Your <span className='text-[#f90] font-bold'>ONE-STOP </span> Book Editing And Publishing Service Provider!</h1>
 
                 <p className='text-white text-[16px]  md:text-center lg:text-left   xl:text-[17px] font-light leading-relaxed 2xl:text-[18px] mt-5'>We understand being an author is a challenging yet respectable profession, but not everybody is lucky enough to become one.</p>
               </div>
