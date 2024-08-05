@@ -12,7 +12,7 @@ import { CTA } from '.'
 export default function Hero() {
   return (
     <section>
-      <div className='xs:h-[70vh] md:h-[80vh]  2xl:h-[700px]  flex items-center relative '>
+      <div className='xs:h-[70vh] md:h-[90vh]  2xl:h-[700px]  flex items-center relative '>
         <Image src={HomeBanner} alt={process.env.NEXT_PUBLIC_WEBSITE_ALT_TAGS} fill={true} className='-z-10 object-cover object-right ' priority={true} unoptimized={true} />
         <div className='absolute top-0 bottom-0 left-0 right-0 bg-black xs:opacity-80 opacity-70 xl:opacity-60 ' ></div>
         <div className="container z-10 ">
