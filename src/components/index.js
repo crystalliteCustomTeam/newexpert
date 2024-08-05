@@ -10,7 +10,12 @@ import {
     TooltipProvider,
     TooltipTrigger,
   } from "@/components/ui/tooltip"
+import SecondFoldHomePage from "./SecondFoldHomePage";
+import Portfolio from "./portfolio";
+import Services from "./Services";
+import WhyChosse from "./WhyChosse";
+import AmazonKindle from "./amazonKindle";
 
 export {
-    Hero,ButtonVariants,Button,CTA,AutoPlaySlider,AutoScrollSlider,Tooltip,TooltipContent,TooltipProvider,TooltipTrigger
+    Hero,ButtonVariants,Button,CTA,AutoPlaySlider,AutoScrollSlider,Tooltip,TooltipContent,TooltipProvider,TooltipTrigger,SecondFoldHomePage,Portfolio,Services,WhyChosse,AmazonKindle
 };
