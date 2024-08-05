@@ -11,7 +11,7 @@ import {
     TooltipTrigger,
   } from "@/components/ui/tooltip"
 import SecondFoldHomePage from "./SecondFoldHomePage";
-import Portfolio from "./portfolio";
+import Portfolio from "./Portfolio";
 import Services from "./Services";
 import WhyChosse from "./WhyChosse";
 import AmazonKindle from "./amazonKindle";
